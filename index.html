@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Craze Cave</title>
+    <link  href="css/style.css" rel="stylesheet">
+    <link href="css/global-sheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+
+
+
+    <div class="topbar">
+            
+        
+            <div class="search">
+                <h1 class="title">The Craze Cave</h1>
+                    <form>
+                    <input type="search" placeholder="Search...">
+             </form>
+             <button class ="shopping-cart">
+                <img class="shopping" src="img/shopping-cart.png">
+             </button>
+            </div>
+         
+        </div>
+     
+        <div class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#news">ABOUT US</a>
+            <div class="dropdown">
+              <button class="dropbtn">CATEGORIES
+                <i class="dropdown-btn"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Early Learners</a>
+                <a href="#">Fidget Toys</a>
+                <a href="#">Brain power</a>
+                <a href="#">Tactile Play</a>
+                <a href="#">Visual Input</a>
+                <a href="#">Tangles</a>
+                <a href="#">Puzzle</a>
+              </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">BRANDS
+                  <i class="dropdown-btn"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">NEEDOH</a>
+                  <a href="#">SMOOSHO'S</a>
+                  <a href="#">SQUISHMALLOW</a>
+                  <a href="#">POP IT</a>
+                  <a href="#">CHROMA</a>
+                 
+                </div>
+              </div>
+          </div>
+
+          
+          <div class="slider">
+            <div class="slides">
+                <img class="slide" src="img/slidesimg/1.jpeg">
+                <img class="slide" src="img/slidesimg/2.jpeg">
+                <img class="slide" src="img/slidesimg/3.jpeg">
+            </div>
+        
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+      
+            </div>
+            <div class="jump-to-section">
+                <a class="jump" href="#discounts">DISCOUNTS</a>
+                <a class="jump" href="#popular-products">POPULAR PRODUCTS</a>
+                <a class="jump" href="#shop-by-age">SHOP BY AGE</a>
+                <a class="jump" href="#Reccomended-Products">RECCOMENDED PRODUCTS</a>
+                   
+    
+            </div>   
+        
+  
+            <section class="products-on-discount"> 
+                
+                <h2 class="discounts" id="discounts">Products On Discounts</h2>
+                <button class="before-button" ><img src="img/arrow-img.png" class="button-img"></button>
+                <button class="after-button"><img src="img/arrow-img.png" class="button-img"></button>
+                <div class="list-of-products">
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/discounted-toy-img/cream-bear.jpg" class="portrait" alt="Cream Teddy Bear">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Teddy Bear</h2>
+                            <h3 class="price-of-product">$20</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/discounted-toy-img/building-blocks.jpg" class="portrait" alt="Building Blocks">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Building Blocks</h2>
+                            <h3 class="price-of-product">$9</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/discounted-toy-img/pink-slinky.jpg" class="portrait" alt="Pink Slinky">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Pink Slink</h2>
+                            <h3 class="price-of-product">$7</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/discounted-toy-img/wooden-worm.jpg" class="portrait" alt="Wooden Worm">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Wooden Worm</h2>
+                            <h3 class="price-of-product">$10</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/discounted-toy-img/play-clay.jpg" class="portrait" alt="Clay Toy">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Play Clay</h2>
+                            <h3 class="price-of-product">$5.6</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/discounted-toy-img/colorful-bear.jpeg" class="portrait" alt="colorful bear">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Colorful Bear</h2>
+                            <h3 class="price-of-product">$20</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/discounted-toy-img/fidget.cube.jpg" class="portrait" alt="Fidget Cube">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Fidget</h2>
+                            <h3 class="price-of-product">$12</h3>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+            </section>
+
+            <div class="custom-shape-divider-bottom-1716291303">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            
+       
+            <div class = "product-2">
+                <h2 id = "popular-products" class="header2">
+                    Popular Products
+                </h2>
+            <section class="product"> 
+                
+                <button class="before-button" ><img src="arrow-img.png"></button>
+                <button class="after-button"><img src="arrow-img.png"></button>
+                
+                <div class="list-of-products">
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/popular-toy-img/rideable-toy-car.jpg" class="portrait" alt="Large Toy Car">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Large Toy Car</h2>
+                            <h3 class="price-of-product">$32</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/popular-toy-img/marble.jpg" class="portrait" alt="marble">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name"> Marbles</h2>
+                            <h3 class="price-of-product">$6.7</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/popular-toy-img/furry-balls.jpg" class="portrait" alt="Furry Balls">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Furry Balls</h2>
+                            <h3 class="price-of-product">$11</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/popular-toy-img/fidget-balls.jpg" class="portrait" alt="Fidget Balls">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Fidget Balls</h2>
+                            <h3 class="price-of-product">$16</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/popular-toy-img/fidget-spinner.jpg" class="portrait" alt="Fidget Spinner">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Fidget Spinner</h2>
+                            <h3 class="price-of-product">$13.4</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/popular-toy-img/fluffy-unicorn.jpg" class="portrait" alt="Fluffy Unicorn">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Fluffy Unicorn</h2>
+                            <h3 class="price-of-product">$22</h3>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="image-of-product">
+                            <img src="img/popular-toy-img/donut-tower.jpg" class="portrait" alt="Donut Tower">
+                            <button class="card-button">Add To Cart</button>
+                        </div>
+                        <div class="info-of-product">
+                            <h2 class="product-name">Donut Towers</h2>
+                            <h3 class="price-of-product">$14</h3>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+            </section>
+        </div>
+   
+ 
+
+       <div class="custom-shape-divider-bottom-2">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <h2 id = "popular-products">
+
+
+
+        <section class="shop-by-age">
+            <h2 class="age-header" id="shop-by-age">
+                Shop By Ages
+            </h2>
+            <div class="custom-shape-3">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class ="ages">
+                <div class = "age-container">
+                    <a class="age-link "href="">
+                    <div class="age-portrait">
+                        <img class ="age-thumb" src="img/0-2.jpg">
+                        </div>
+                    <div class ="age-number">
+                        <h3>
+                            0-2
+                        </h3>
+                    </div>
+                </a>
+                </div>
+                <div class = "age-container">
+                    <a class="age-link "href="">
+                    <div class="age-portrait">
+                        <img class ="age-thumb" src="img/2-4.jpg">
+                        </div>
+                    <div class ="age-number">
+                        <h3>
+                            2-4
+                        </h3>
+                    </div>
+                </a>
+                </div>
+                <div class = "age-container">
+                    <a class="age-link " href="">
+                    <div class="age-portrait">
+                        <img class ="age-thumb" src="img/4-6.jpg">
+                        </div>
+                    <div class ="age-number">
+                        <h3>
+                            4-6
+                        </h3>
+                    </div>
+                </a>
+                </div>
+                <div class = "age-container">
+                    <a class="age-link " href="">
+                    <div class="age-portrait">
+                        <img class ="age-thumb" src="img/6-8.jpg">
+                        </div>
+                    <div class ="age-number">
+                        <h3>
+                            6-8
+                        </h3>
+                    </div>
+                </a>
+                </div>
+              
+            </div>
+        </section>
+                        
+
+
+    
+            <h2 class="age-header" id="Reccomended-Products">
+                Reccomended Products
+            </h2>
+            <div class="custom-shape-3">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+         
+
+            <section class="reccomended-products">
+                        <div class="reccomended-list">
+                            <div class="first-row">
+                            <div class="product-card">
+                                <div class="image-of-product">
+                                    <img src="img/reccomended-toy-img/rainbow-slinky.jpg" class="portrait" alt="Rainbow Slinky">
+                                    <button class="card-button">Add To Cart</button>
+                                </div>
+                                <div class="info-of-product">
+                                    <h2 class="product-name">Rainbow Slinky</h2>
+                                    <h3 class="price-of-product">$5.6</h3>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="image-of-product">
+                                    <img src="img/reccomended-toy-img/lego-blocks.jpg" class="portrait" alt="Play Blocks">
+                                    <button class="card-button">Add To Cart</button>
+                                </div>
+                                <div class="info-of-product">
+                                    <h2 class="product-name">Play Blocks</h2>
+                                    <h3 class="price-of-product">$13</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-row">
+                            <div class="product-card">
+                                <div class="image-of-product">
+                                    <img src="img/reccomended-toy-img/wooden-shapes.jpg" class="portrait" alt="wooden shapes">
+                                    <button class="card-button">Add To Cart</button>
+                                </div>
+                                <div class="info-of-product">
+                                    <h2 class="product-name">Wooden Shapes</h2>
+                                    <h3 class="price-of-product">$15</h3>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="image-of-product">
+                                    <img src="img/reccomended-toy-img/toy-train.jpg" class="portrait" alt="Toy Train">
+                                    <button class="card-button">Add To Cart</button>
+                                </div>
+                                <div class="info-of-product">
+                                    <h2 class="product-name"> Toy Train</h2>
+                                    <h3 class="price-of-product">$20</h3>
+                                </div>
+                            </div>
+                            
+                        </div>
+                            
+                           
+                        </div>
+                 
+
+
+
+
+        </section>
+
+
+
+
+
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-1388">
+    <div class="cs-container">
+        <div class="cs-content">
+           
+            <h2 class="cs-title">Contact US</h2>
+            <p class="cs-text">
+                For further queries, email us, or get in touch immediately!
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:888-4565-789
+                        " class="cs-link">+61 432 239 572
+                        </a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Email</span>
+                        <a href="mailto:info@thecrazecave.com.au" class="cs-link">info@thecrazecave.com.au</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="" class="cs-link">27 John Russell Rd, Cranbourne VIC 3977</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--Form-->
+        <form class="cs-form" id="cs-form-1388" name="Contact Form" method="post">
+            <h3 class="cs-h3">Send Us A Message!</h3>
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-1388" name="name" placeholder="Name">
+            </label>
+            <label class="cs-label cs-email">
+                Email
+                <input class="cs-input" required type="email" id="email-1388" name="email" placeholder="Email">
+            </label>
+            <label class="cs-label cs-phone">
+                Phone
+                <input class="cs-input" required type="number" id="phone-1388" name="phone" placeholder="Phone">
+            </label>
+            <label class="cs-label">
+                Message
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-1388" placeholder="Write message..."></textarea>
+            </label>
+            <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <h2 class="cs-logo-image light"></h2>
+            </a>
+            <p class="cs-text">
+                Join us now to get the latest new of the best toys for your child!
+            </p>
+        </div>
+        <!-- Links -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Sitemap</span>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Home</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">About Us</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Brands</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Shop By Age</a>
+            </li>
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="">Categories</a>
+            </li>
+        </ul>
+        <!-- Contact Info -->
+        <ul class="cs-contact">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact</span>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" href="">+61 432 239 572</a>
+            </li>
+            <li class="cs-contact-li">
+                <a class="cs-contact-link" href="">info@thecrazecave.com.au</a>
+            </li>
+            <!-- Social Media -->
+            <li class="cs-contact-li cs-social-group">
+                <div class="cs-social">
+                    <a class="cs-social-link" aria-label="visit google profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google" width="11" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook" width="6" height="11">
+                    </a>
+                    <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                        <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram" width="11" height="11">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</footer>
+                                
+            <button class ="jump-to-top" id="button-top" tabindex="1">^</button>           
+   <script src="scripts/script.js"></script>
+   <script src="scripts/script2.js"></script>
+   <script src="scripts/script3.js"></script>
+</body>
+</html>
